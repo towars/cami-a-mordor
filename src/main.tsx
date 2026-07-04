@@ -12,7 +12,8 @@ createRoot(document.getElementById('root')!).render(
 // Register PWA Service Worker for PWABuilder compatibility
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js')
+    const swPath = `${(import.meta as any).env?.BASE_URL || './'}sw.js`;
+    navigator.serviceWorker.register(swPath)
       .then((registration) => {
         console.log('Service Worker registered successfully with scope:', registration.scope);
       })

@@ -56,8 +56,8 @@ export const AVATAR_OPTIONS = [
 
 // Enllaços de música de fons per a cada regió (pots modificar les cançons lliurement aquí!)
 export const REGION_BG_MUSIC: Record<string, string> = {
-  "La Comarca (Caminant cap a Bree)": "/audio/music/The Shire.mp3",
-  "Terres de Bree (Camí de la Sota del Vent)": "public/audio/music/bree.mp3",
+  "La Comarca (Caminant cap a Bree)": "audio/music/The Shire.mp3",
+  "Terres de Bree (Camí de la Sota del Vent)": "audio/music/bree.mp3",
   "Turons de la Sota del Vent (Ruta a Rivendell)": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
   "Rivendell (Ruta cap a les Mines de Mòria)": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
   "Mines de Mòria (Sota les Muntanyes Boiroses)": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",

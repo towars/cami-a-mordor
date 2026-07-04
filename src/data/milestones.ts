@@ -10,7 +10,7 @@ export const MILESTONES: Milestone[] = [
     audioNarrative: "El teu viatge èpic comença. Atzucac està tranquil, però l'aventura t'espera. Fes els teus primers passos en el camí.",
     coordinates: { x: 27, y: 29 },
     image: "https://www.madornomad.com/wp-content/uploads/2023/06/New-Zealand-Motorcycle-Travel-Mad-or-Nomad-69.jpg",
-    audio: "/audio/text/theshire.m4a"
+    audio: "audio/text/theshire.m4a"
   },
   {
     id: "bucklebury_ferry",

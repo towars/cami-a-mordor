@@ -1,9 +1,9 @@
 {
-  "id": "/?source=pwa",
+  "id": "./?source=pwa",
   "name": "Camí a Mórdor",
   "short_name": "Camí Mórdor",
   "description": "Un acompanyant de fitnes interactiu de la Terra Mitjana que visualitza el teu viatge a peu des de la Comarca fins al Mont del Destí.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#1b110f",
   "theme_color": "#1b110f",
@@ -13,31 +13,31 @@
   "categories": ["fitness", "health", "games", "sports"],
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-192.png",
+      "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icons/icon-1024.jpg",
+      "src": "icons/icon-1024.jpg",
       "sizes": "1024x1024",
       "type": "image/jpeg",
       "purpose": "any"
@@ -48,8 +48,8 @@
       "name": "Registrar Caminada",
       "short_name": "Camina",
       "description": "Afegeix quilòmetres al teu viatge",
-      "url": "/",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+      "url": "./",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
     }
   ]
 }
