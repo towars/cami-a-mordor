@@ -1,0 +1,6 @@
+{
+  "name": "Camí a Mórdor",
+  "description": "Un acompanyant de fitnes interactiu de la Terra Mitjana que visualitza el teu viatge a peu des de la Comarca fins al Mont del Destí.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
